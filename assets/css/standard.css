@@ -398,7 +398,6 @@ div {
 }
 
 .cover-image {
-    background-image: url(../img/cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1095,7 +1094,6 @@ div {
 }
 
 .cover-image {
-    background-image: url(../img/cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1794,7 +1792,6 @@ div {
 }
 
 .cover-image {
-    background-image: url(../img/cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
