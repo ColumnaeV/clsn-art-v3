@@ -29,34 +29,15 @@ $(document).ready(function (){
         $('.page-split').css({ minHeight: 'auto' });
         $('.page, .dark-page').css({ minHeight: 'auto' });
         // Slick Controls //
-        $(".project-display").slick({
-            dots: true,
-            infinite: true,
-            centerMode: true,
-            slidesToShow: 1,
-            slidesToScroll: 3,
-            asNavFor: '.project-content',
-            autoplay: true,
-            autoplaySpeed: 4000
-        });
-        $(".project-content").slick({
-            dots: false,
-            infinite: true,
-            centerMode: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            asNavFor: '.project-display',
-            arrows: false,
-            fade: true
-        });
         $(".artwork-display").slick({
+            lazyLoad: 'ondemand',
             dots: true,
             infinite: true,
             centerMode: true,
             variableWidth: true,
             asNavFor: '.artwork-content',
             autoplay: true,
-            slidesToShow: 1,
+            slidesToShow: 3,
             slidesToScroll: 1,
             autoplaySpeed: 3000
         });
@@ -64,39 +45,88 @@ $(document).ready(function (){
             dots: false,
             infinite: true,
             centerMode: true,
-            slidesToShow: 1,
+            slidesToShow: 3,
             slidesToScroll: 1,
             asNavFor: '.artwork-display',
             arrows: false,
             fade: true
         });
-        $('.artwork-img').css({ height: '40vw' }).css({ width: 'auto' });
+
+        $(".artwork-display-2").slick({
+            lazyLoad: 'ondemand',
+            dots: true,
+            infinite: true,
+            centerMode: true,
+            variableWidth: true,
+            asNavFor: '.artwork-content-2',
+            autoplay: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplaySpeed: 3000
+        });
+        $(".artwork-content-2").slick({
+            dots: false,
+            infinite: true,
+            centerMode: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            asNavFor: '.artwork-display-2',
+            arrows: false,
+            fade: true
+        });
+
+        $(".artwork-display-3").slick({
+            lazyLoad: 'ondemand',
+            dots: true,
+            infinite: true,
+            centerMode: true,
+            variableWidth: true,
+            asNavFor: '.artwork-content-3',
+            autoplay: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplaySpeed: 3000
+        });
+        $(".artwork-content-3").slick({
+            dots: false,
+            infinite: true,
+            centerMode: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            asNavFor: '.artwork-display-3',
+            arrows: false,
+            fade: true
+        });
+
+        $(".artwork-display-4").slick({
+            lazyLoad: 'ondemand',
+            dots: true,
+            infinite: true,
+            centerMode: true,
+            variableWidth: true,
+            asNavFor: '.artwork-content-4',
+            autoplay: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplaySpeed: 3000
+        });
+        $(".artwork-content-4").slick({
+            dots: false,
+            infinite: true,
+            centerMode: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            asNavFor: '.artwork-display-4',
+            arrows: false,
+            fade: true
+        });
+
+        $('img.artwork-img').css({ height: '40vw !important' }).css({ width: 'auto' });
     }
     else {
         $('.page-split').css({ minHeight: vh100 });
         $('.page, .dark-page').css({ minHeight: vh100 });
         // Slick Controls //
-        $(".project-display").slick({
-            lazyLoad: 'ondemand',
-            dots: true,
-            infinite: true,
-            centerMode: true,
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            asNavFor: '.project-content',
-            autoplay: true,
-            autoplaySpeed: 4000
-        });
-        $(".project-content").slick({
-            dots: false,
-            infinite: true,
-            centerMode: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            asNavFor: '.project-display',
-            arrows: false,
-            fade: true
-        });
         $(".artwork-display").slick({
             lazyLoad: 'ondemand',
             dots: true,
@@ -119,6 +149,76 @@ $(document).ready(function (){
             arrows: false,
             fade: true
         });
+
+        $(".artwork-display-2").slick({
+            lazyLoad: 'ondemand',
+            dots: true,
+            infinite: true,
+            centerMode: true,
+            variableWidth: true,
+            asNavFor: '.artwork-content-2',
+            autoplay: true,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            autoplaySpeed: 3000
+        });
+        $(".artwork-content-2").slick({
+            dots: false,
+            infinite: true,
+            centerMode: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            asNavFor: '.artwork-display-2',
+            arrows: false,
+            fade: true
+        });
+
+        $(".artwork-display-3").slick({
+            lazyLoad: 'ondemand',
+            dots: true,
+            infinite: true,
+            centerMode: true,
+            variableWidth: true,
+            asNavFor: '.artwork-content-3',
+            autoplay: true,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            autoplaySpeed: 3000
+        });
+        $(".artwork-content-3").slick({
+            dots: false,
+            infinite: true,
+            centerMode: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            asNavFor: '.artwork-display-3',
+            arrows: false,
+            fade: true
+        });
+
+        $(".artwork-display-4").slick({
+            lazyLoad: 'ondemand',
+            dots: true,
+            infinite: true,
+            centerMode: true,
+            variableWidth: true,
+            asNavFor: '.artwork-content-4',
+            autoplay: true,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            autoplaySpeed: 3000
+        });
+        $(".artwork-content-4").slick({
+            dots: false,
+            infinite: true,
+            centerMode: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            asNavFor: '.artwork-display-4',
+            arrows: false,
+            fade: true
+        });
+
         $('.artwork-img').css({ height: vh50 }).css({ width: 'auto' });
     }
 
