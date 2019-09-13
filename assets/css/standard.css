@@ -484,6 +484,7 @@ u {
 .project-info-slide {
     align-content: left;
     text-align: left;
+    width: 80vw;
 }
 
 .s-slide-header {
@@ -492,10 +493,11 @@ u {
     color: var(--colour-1);
     font-size: 2em;
     font-weight: 300;
+    width: 80vw;
 }
 
 .project-description {
-    width: 100%;
+    width: 80vw;
     overflow-y: hidden;
     text-overflow: ellipsis;
     height: 4.5em;
@@ -1084,7 +1086,7 @@ div {
     text-align: left;
     text-indent: 0;
     font-size: 1em;
-    padding: 1em 0.25vw;
+    padding: 1em;
     color: var(--colour-4);
 }
 
@@ -1188,9 +1190,11 @@ u {
 .project-info-slide {
     align-content: left;
     text-align: left;
+    width: 80vw;
 }
 
 .s-slide-header {
+    width: 80vw;
     text-align: left;
     font-family: "Font Primary", Helvetica, Arial, sans-serif;
     color: var(--colour-1);
@@ -1199,7 +1203,7 @@ u {
 }
 
 .project-description {
-    width: 100%;
+    width: 80vw;
     overflow-y: hidden;
     text-overflow: ellipsis;
     height: 13.5em;
@@ -1790,7 +1794,7 @@ div {
     text-align: left;
     text-indent: 0;
     font-size: 0.7em;
-    padding: 1em 0.25vw;
+    padding: 1em;
     color: var(--colour-4);
 }
 
@@ -1894,6 +1898,7 @@ u {
 .project-info-slide {
     align-content: left;
     text-align: left;
+    width: 80vw;
 }
 
 .s-slide-header {
@@ -1902,10 +1907,11 @@ u {
     color: var(--colour-1);
     font-size: 1em;
     font-weight: 300;
+    width: 80vw;
 }
 
 .project-description {
-    width: 100%;
+    width: 80vw;
     overflow-y: hidden;
     text-overflow: ellipsis;
     height: 10.5em;
