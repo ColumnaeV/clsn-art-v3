@@ -375,6 +375,15 @@ div {
     color: var(--colour-4);
 }
 
+.centre-text {
+    text-align: left;
+    text-indent: 0;
+    font-size: 1em;
+    padding: 1em;
+    color: var(--colour-4);
+    border: 1px solid var(--colour-4);
+}
+
 /* Cover Styles */
 .cover-wrapper {
     width: 100%;
@@ -515,7 +524,7 @@ u {
 .in-text-link:hover {
     cursor: pointer;
     border-bottom: solid 1px var(--colour-1);
-    margin-left: 0.45em;
+    margin: 0 0.45em;
 }
 
 .in-text-link a {
@@ -1071,6 +1080,14 @@ div {
     color: var(--colour-4);
 }
 
+.centre-text {
+    text-align: left;
+    text-indent: 0;
+    font-size: 1em;
+    padding: 1em 0.25vw;
+    color: var(--colour-4);
+}
+
 /* Cover Styles */
 .cover-wrapper {
     width: 100%;
@@ -1211,7 +1228,7 @@ u {
 .in-text-link:hover {
     cursor: pointer;
     border-bottom: solid 1px var(--colour-1);
-    margin-left: 0.45em;
+    margin: 0 0.45em;
 }
 
 .in-text-link a {
@@ -1769,6 +1786,14 @@ div {
     color: var(--colour-4);
 }
 
+.centre-text {
+    text-align: left;
+    text-indent: 0;
+    font-size: 0.7em;
+    padding: 1em 0.25vw;
+    color: var(--colour-4);
+}
+
 /* Cover Styles */
 .cover-wrapper {
     width: 100%;
@@ -1909,7 +1934,7 @@ u {
 .in-text-link:hover {
     cursor: pointer;
     border-bottom: solid 1px var(--colour-1);
-    margin-left: 0.45em;
+    margin: 0 0.45em;
 }
 
 .in-text-link a {
