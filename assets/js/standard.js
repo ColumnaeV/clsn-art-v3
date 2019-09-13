@@ -121,7 +121,7 @@ $(document).ready(function (){
             fade: true
         });
 
-        $('img.artwork-img').css({ height: '40vw !important' }).css({ width: 'auto' });
+        $('.artwork-img').css({ height: '40vw' }).css({ width: 'auto' });
     }
     else {
         $('.page-split').css({ minHeight: vh100 });
